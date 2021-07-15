@@ -1,0 +1,39 @@
+form{
+      margin-top : 3rem;
+}
+
+form input[name= "city"],
+form input[name= "country"]{
+      background-color:transparent;
+      color:black;
+      border:0;
+      border-bottom: 2px solid rgb(54, 69, 79);
+      border-radius: 0;
+      font-size:20px;
+
+}
+
+.form-control{
+      color:black;
+}
+
+form input:focus{
+      background-color: transparent !important;
+      box-shadow: none  !important;
+}
+
+form input
+.container::-webkit-input-placeholder
+{
+      color:black !important;
+}
+/*
+.constainer button{
+      font-size: 20px;
+    }
+ 
+  
+    .container input:focus 
+    {
+      top:-12px;
+    }*/
